@@ -12,7 +12,6 @@ html {
 .flexbox {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .cards {
@@ -25,6 +24,10 @@ html {
   flex-basis: 100%;
   order: 1;
   text-align: center;
+  background-image: url(img/shop-germ.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  color: white;
 }
 
 .main {
@@ -38,18 +41,22 @@ html {
   min-height: calc(100vh - 200px);
   flex-basis: 300px;
   order: 2;
+  padding-left: 20px;
+
 }
 
 .right {
   min-height: calc(100vh - 200px);
   flex-basis: 200px;
   order: 4;
+  padding-right: 20px;
 }
 
 .footer {
   min-height: 100px;
   flex-basis: 100%;
   order: 5;
+  background-color: gray;
 }
 
 .card-item {
