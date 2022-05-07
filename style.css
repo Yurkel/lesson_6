@@ -6,7 +6,7 @@
 
 html {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .flexbox {
@@ -18,14 +18,12 @@ html {
 .header {
   min-height: 100px;
   flex-basis: 100%;
-  background-color: aqua;
   order: 1;
   text-align: center;
 }
 
 .main {
   min-height: calc(100vh - 200px);
-  background-color: wheat;
   flex-basis: 500px;
   flex-grow: 1;
   order: 3;
@@ -33,31 +31,25 @@ html {
 
 .left {
   min-height: calc(100vh - 200px);
-  background-color: gray;
   flex-basis: 300px;
   order: 2;
 }
 
 .right {
   min-height: calc(100vh - 200px);
-  background-color: greenyellow;
   flex-basis: 200px;
   order: 4;
 }
 
 .footer {
   min-height: 100px;
-  background-color: royalblue;
   flex-basis: 100%;
   order: 5;
 }
 
 .card-item {
-  display: inline-block;
   padding: 5px;
-  border: 10px solid red;
   width: 31.5%;
-  margin-left: 1em;
 }
 
 .card-item1 {
@@ -70,19 +62,19 @@ html {
 }
 
 .card-item-image {
-  display: block;
+  /*display: block;*/
   width: 100%;
 }
 
 .card-item-title {
-  display: block;
+  /*display: block;*/
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
 
 .card-item-price {
-  display: block;
+  /*display: block;*/
   text-align: center;
   text-transform: uppercase;
   color: red;
