@@ -15,6 +15,11 @@ html {
   gap: 10px;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .header {
   min-height: 100px;
   flex-basis: 100%;
@@ -48,33 +53,21 @@ html {
 }
 
 .card-item {
-  padding: 5px;
-  width: 31.5%;
-}
-
-.card-item1 {
-  padding: 5px;
-  border: 10px solid red;
-  width: 32%;
-  float: left;
-  margin-left: 1em;
-  margin-top: 1em;
+  min-height: 100px;
+  flex-basis: 33.33%;
 }
 
 .card-item-image {
-  /*display: block;*/
   width: 100%;
 }
 
 .card-item-title {
-  /*display: block;*/
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
 
 .card-item-price {
-  /*display: block;*/
   text-align: center;
   text-transform: uppercase;
   color: red;
