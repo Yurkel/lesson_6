@@ -24,7 +24,7 @@ html {
 }
 
 .main {
-  min-height: calc(100vh -200px);
+  min-height: calc(100vh - 200px);
   background-color: wheat;
   flex-basis: 500px;
   flex-grow: 1;
