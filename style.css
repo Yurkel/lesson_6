@@ -32,6 +32,7 @@ html {
   order: 1;
   text-align: center;
   color: ghostwhite;
+  filter: grayscale(1);
 }
 
 .title {
@@ -51,6 +52,8 @@ html {
   flex-basis: 500px;
   flex-grow: 1;
   order: 3;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .left {
@@ -80,7 +83,7 @@ html {
 
 .card-item {
   min-height: 100px;
-  flex-basis: 32.8%;
+  flex-basis: calc((100% - 1em) / 3);
   border: 10px solid darkgrey;
 }
 
