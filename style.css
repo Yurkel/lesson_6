@@ -7,11 +7,14 @@
 html {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  color: ghostwhite;
 }
 
 .flexbox {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.5em;
+  background-color: gray;
 }
 
 .cards {
@@ -24,44 +27,60 @@ html {
   flex-basis: 100%;
   order: 1;
   text-align: center;
-  background-image: url(img/shop-germ.jpg);
+  background-image: url(img/torgovii-tsentr-interer.jpg);
+  background-position: 100% 50%;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
-  color: white;
+  color: ghostwhite;
+}
+
+.navbar a {
+  color: ghostwhite;
+}
+
+.footer a {
+  color: ghostwhite;
 }
 
 .main {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 150px);
   flex-basis: 500px;
   flex-grow: 1;
   order: 3;
 }
 
 .left {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 150px);
   flex-basis: 300px;
   order: 2;
   padding-left: 20px;
+  background-color: gray;
 
 }
 
 .right {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 150px);
   flex-basis: 200px;
   order: 4;
   padding-right: 20px;
+  background-color: gray;
 }
 
 .footer {
-  min-height: 100px;
+  min-height: 50px;
   flex-basis: 100%;
   order: 5;
   background-color: gray;
+  text-align: center;
 }
 
 .card-item {
   min-height: 100px;
   flex-basis: 33.33%;
+  border: 10px solid darkgrey;
+}
+
+.card-item a {
+  color: ghostwhite;
 }
 
 .card-item-image {
@@ -77,5 +96,5 @@ html {
 .card-item-price {
   text-align: center;
   text-transform: uppercase;
-  color: red;
+  color: ghostwhite;
 }
